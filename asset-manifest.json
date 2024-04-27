@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/protfolio-rio/static/css/main.ce9dc7d6.css",
-    "main.js": "/protfolio-rio/static/js/main.0a60de06.js",
-    "static/media/kindpng_705876.png": "/protfolio-rio/static/media/kindpng_705876.d7769775ae7910765ff1.png",
-    "static/media/logo2.png": "/protfolio-rio/static/media/logo2.fd80c484af9a2098e8d9.png",
-    "static/media/bannerImg.png": "/protfolio-rio/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
-    "static/media/contactImg.png": "/protfolio-rio/static/media/contactImg.8ddfbfd11798f881db54.png",
-    "static/media/testimonialOne.png": "/protfolio-rio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/projectThree.jpeg": "/protfolio-rio/static/media/projectThree.47442baa3158613330ab.jpeg",
-    "static/media/testimonialTwo.png": "/protfolio-rio/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/projectTwo.jpg": "/protfolio-rio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
-    "index.html": "/protfolio-rio/index.html",
-    "main.ce9dc7d6.css.map": "/protfolio-rio/static/css/main.ce9dc7d6.css.map",
-    "main.0a60de06.js.map": "/protfolio-rio/static/js/main.0a60de06.js.map"
+    "main.css": "/portfolio-rio/static/css/main.ce9dc7d6.css",
+    "main.js": "/portfolio-rio/static/js/main.b3eed13d.js",
+    "static/media/kindpng_705876.png": "/portfolio-rio/static/media/kindpng_705876.d7769775ae7910765ff1.png",
+    "static/media/logo2.png": "/portfolio-rio/static/media/logo2.fd80c484af9a2098e8d9.png",
+    "static/media/bannerImg.png": "/portfolio-rio/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "static/media/contactImg.png": "/portfolio-rio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/portfolio-rio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/projectThree.jpeg": "/portfolio-rio/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/testimonialTwo.png": "/portfolio-rio/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/projectTwo.jpg": "/portfolio-rio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/portfolio-rio/index.html",
+    "main.ce9dc7d6.css.map": "/portfolio-rio/static/css/main.ce9dc7d6.css.map",
+    "main.b3eed13d.js.map": "/portfolio-rio/static/js/main.b3eed13d.js.map"
   },
   "entrypoints": [
     "static/css/main.ce9dc7d6.css",
-    "static/js/main.0a60de06.js"
+    "static/js/main.b3eed13d.js"
   ]
 }
