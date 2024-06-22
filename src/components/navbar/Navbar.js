@@ -83,7 +83,7 @@ const Navbar = () => {
                   <span className="bannerIcon" onClick={()=>{
                     window.location.href = 'https://www.linkedin.com/in/patel-ved';
                   }}>
-                      <FaLinkedinIn />
+                    <FaLinkedinIn />
                   </span>
                 </div>
               </div>
