@@ -44,11 +44,9 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
+                <img className="w-32" src={logo2} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Detail-oriented, analytical, and self-driven programmer with extensive experience building user-facing applications. Efficient and knowledgeable coder with skills in HTML, CSS, React, React-native, and JavaScript programming languages. Coordinated and collaborative team player with attention to detail, graphic design skills, and ability to contribute to code base improvement initiatives and UX improvement projects.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -82,8 +80,10 @@ const Navbar = () => {
                   <span className="bannerIcon">
                     <FaTwitter />
                   </span> */}
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
+                  <span className="bannerIcon" onClick={()=>{
+                    window.location.href = 'https://www.linkedin.com/in/patel-ved';
+                  }}>
+                      <FaLinkedinIn />
                   </span>
                 </div>
               </div>

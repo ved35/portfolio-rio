@@ -16,8 +16,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Searching for a Web/App Developer position in Company that prioritizes graphical design and compatibility among media while encouraging creative thinking and problem-solving.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 7203883017</span>
@@ -35,7 +34,9 @@ const ContactLeft = () => {
           <span className="bannerIcon">
             <FaTwitter />
           </span> */}
-          <span className="bannerIcon">
+          <span className="bannerIcon" onClick={()=>{
+                    window.location.href = 'https://www.linkedin.com/in/patel-ved';
+                  }}>
             <FaLinkedinIn />
           </span>
         </div>

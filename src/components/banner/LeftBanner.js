@@ -28,9 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Detail-oriented, analytical, and self-driven programmer with extensive experience building user-facing applications. Efficient and knowledgeable coder with skills in HTML, CSS, React, React-native, and JavaScript programming languages. Coordinated and collaborative team player with attention to detail, graphic design skills, and ability to contribute to code base improvement initiatives and UX improvement projects.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -45,7 +43,9 @@ const LeftBanner = () => {
             <span className="bannerIcon">
               <FaTwitter />
             </span> */}
-            <span className="bannerIcon">
+            <span className="bannerIcon" onClick={()=>{
+                    window.location.href = 'https://www.linkedin.com/in/patel-ved';
+                  }}>
               <FaLinkedinIn />
             </span>
           </div>
