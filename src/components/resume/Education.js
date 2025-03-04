@@ -45,10 +45,10 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Jr. Frontend Developer"
-            subTitle="Palm Infotech (june 2023 - Present)"
+            title="Jr. Full-stack Developer"
+            subTitle="Palm Infotech (june 2023 - novemeber 2024)"
             result="Surat"
-            des="Developed responsive websites and mobile applications, utilizing a diverse tech stack including HTML, CSS, JavaScript, React-js and React-Native for mobile. Played a key role in project planning, execution, and optimization, ensuring alignment with business objectives and user needs."
+            des="Work on the frontend of Onepay, a fintech product-based project, using React Native and React.js. Collaborated with testers to ensure high-quality releases and worked with clients to understand and implement new requirements.	Added subscription management, chat functionality, and Google OAuth login in a service-based React Native app.Utilized Node.js for authentication and implemented Socket.io for real-time communication"
           />
           {/* <ResumeCard
             title="Web Developer & Trainer"

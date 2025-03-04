@@ -15,11 +15,12 @@ const Experience = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Jr. Frontend Developer"
-            subTitle="Palm Infotech (june 2023 - Present)"
+        <ResumeCard
+            title="Jr. Full-stack Developer"
+            subTitle="Palm Infotech (june 2023 - novemeber 2024)"
             result="Surat"
-            des="Developed responsive websites and mobile applications, utilizing a diverse tech stack including HTML, CSS, JavaScript, React-js and React-Native for mobile. Played a key role in project planning, execution, and optimization, ensuring alignment with business objectives and user needs."
+            des="Work on the frontend of Onepay, a fintech product-based project, using React Native and React.js. Collaborated with testers to ensure high-quality releases and worked with clients to understand and implement new requirements.	Added subscription management, chat functionality, and Google OAuth login in a service-based React Native app.Utilized Node.js for authentication and implemented Socket.io for real-time communication"
+            height
           />
           {/* <ResumeCard
             title="Web Developer & Trainer"
@@ -45,13 +46,16 @@ const Experience = () => {
             title="Internship"
             subTitle="Toshal Infotech (jan 2022 - may 2020)"
             result="Surat"
-            des="Worked eith various team and coordinated on different projects"
+            des="Created a web app to help manage customer information and interactions more efficiently.	Used Node.js along with HTML and CSS to build the application, focusing on user-friendly design and functionality.Worked closely with team members to understand user needs and deliver a responsive interface.	Improved data organization and tracking, helping users stay connected with customers. Developed problem-solving and teamwork skills through active collaboration and project challenges."
+            height
           />
           <ResumeCard
             title="Internship"
             subTitle="TOPS Teachnologies (june 2022 - april 2023)"
             result="Surat"
             des="Gained practical experience in web and mobile development during an internship at TOPS Teachnologies. Worked with React.js and React Native to contribute to the development of responsive web applications and cross-platform mobile apps, collaborating with senior developers to deliver high-quality solutions."
+            height
+            
           />
           {/* <ResumeCard
             title="School Teacher"

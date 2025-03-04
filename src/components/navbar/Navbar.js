@@ -2,16 +2,17 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo, logo2} from "../../assets/index"
+import { FaLinkedinIn } from "react-icons/fa";
+import { logo2, ProfileImg } from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo2} alt="logo" width={140} height={80}/>
+      <div className='flex flex-row items-center gap-4 ml-4'>
+        <img src={ProfileImg} alt="logo" className='rounded-full h-[50px] w-[50px]'/>
+        <p className='font-bold text-2xl '>Ved Patel</p>
         {/* <img src={logo} alt="logo" /> */}
       </div>
       <div>

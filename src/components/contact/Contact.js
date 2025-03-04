@@ -1,4 +1,5 @@
-import React,{useState} from 'react'
+import React,{useRef, useState} from 'react'
+import emailjs from '@emailjs/browser';
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 
@@ -10,6 +11,8 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
+
+  const from = useRef();
 
   // ========== Email Validation start here ==============
   const emailValidation = () => {
@@ -37,6 +40,16 @@ const Contact = () => {
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
       );
+
+      emailjs.sendForm('service_y9em947', 'template_zxui9lb', from.current, 'IHqFgPRhLp09RvsWH').then(
+        function (response) {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        function (err) {
+          console.log('FAILED...', err);
+        },
+      );
+
       setErrMsg("");
       setUsername("");
       setPhoneNumber("");
@@ -57,7 +70,7 @@ const Contact = () => {
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
-            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
+            <form ref={from} className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                   {errMsg}
@@ -81,6 +94,7 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    name='from_name'
                   />
                 </div>
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
@@ -110,6 +124,7 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="email"
+                  name='from_email'
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -138,6 +153,7 @@ const Contact = () => {
                   } contactTextArea`}
                   cols="30"
                   rows="8"
+                  name='message'
                 ></textarea>
               </div>
               <div className="w-full">

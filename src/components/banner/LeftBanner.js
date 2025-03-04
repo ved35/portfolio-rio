@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaJs } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -28,7 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Detail-oriented, analytical, and self-driven programmer with extensive experience building user-facing applications. Efficient and knowledgeable coder with skills in HTML, CSS, React, React-native, and JavaScript programming languages. Coordinated and collaborative team player with attention to detail, graphic design skills, and ability to contribute to code base improvement initiatives and UX improvement projects.
+        I am a web and app developer with experience in full-stack projects using React, React Native, and Node.js. I have a degree in Information Technology from Gujarat Technological University, B.E. I have worked on CRM systems, fintech applications, and real-time chat platforms, focusing on authentication, payments, and subscriptions. I specialize in building scalable, user-friendly applications with modern web technologies. With a strong problem-solving mindset, I collaborate with clients to refine and enhance applications. Passionate about innovation, I continuously upgrade my skills. I'm always ready to take a new challenges and deliver top-notch results.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -59,7 +59,7 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <FaJs />
+              <FaNodeJs />
             </span>
             <span className="bannerIcon">
               <SiNextdotjs />
@@ -67,9 +67,6 @@ const LeftBanner = () => {
             <span className="bannerIcon">
               <SiTailwindcss />
             </span>
-            {/* <span className="bannerIcon">
-              <SiFigma />
-            </span> */}
           </div>
         </div>
       </div>
