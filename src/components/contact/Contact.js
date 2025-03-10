@@ -109,6 +109,7 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    name='phonenumber'
                   />
                 </div>
               </div>
@@ -139,6 +140,7 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="text"
+                  name='subject'
                 />
               </div>
               <div className="flex flex-col gap-4">
