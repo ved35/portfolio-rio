@@ -3,15 +3,15 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
-import { logo2, ProfileImg } from "../../assets/index"
+import { ProfileImg } from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className='flex flex-row items-center gap-4 ml-4'>
-        <img src={ProfileImg} alt="logo" className='rounded-full h-[50px] w-[50px]'/>
+        <img src={ProfileImg} alt="logo" className='rounded-full h-[50px] w-[50px]' />
         <p className='font-bold text-2xl '>Ved Patel</p>
         {/* <img src={logo} alt="logo" /> */}
       </div>
@@ -45,9 +45,12 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo2} alt="logo" />
+                <div className='flex flex-row items-center gap-4 ml-4'>
+                  <img src={ProfileImg} alt="logo" className='rounded-full h-[35px] w-[35px]' />
+                  <p className='font-bold text-xl '>Ved Patel</p>
+                </div>
                 <p className="text-sm text-gray-400 mt-2">
-                I am a web and app developer with experience in full-stack projects using React, React Native, and Node.js. I have a degree in Information Technology from Gujarat Technological University, B.E. I have worked on CRM systems, fintech applications, and real-time chat platforms, focusing on authentication, payments, and subscriptions. I specialize in building scalable, user-friendly applications with modern web technologies. With a strong problem-solving mindset, I collaborate with clients to refine and enhance applications. Passionate about innovation, I continuously upgrade my skills. I'm always ready to take a new challenges and deliver top-notch results.
+                  I am a web and app developer with experience in full-stack projects using React, React Native, and Node.js. I have a degree in Information Technology from Gujarat Technological University, B.E. I have worked on CRM systems, fintech applications, and real-time chat platforms, focusing on authentication, payments, and subscriptions. I specialize in building scalable, user-friendly applications with modern web technologies. With a strong problem-solving mindset, I collaborate with clients to refine and enhance applications. Passionate about innovation, I continuously upgrade my skills. I'm always ready to take a new challenges and deliver top-notch results.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -81,7 +84,7 @@ const Navbar = () => {
                   <span className="bannerIcon">
                     <FaTwitter />
                   </span> */}
-                  <span className="bannerIcon" onClick={()=>{
+                  <span className="bannerIcon" onClick={() => {
                     window.location.href = 'https://www.linkedin.com/in/patel-ved';
                   }}>
                     <FaLinkedinIn />
